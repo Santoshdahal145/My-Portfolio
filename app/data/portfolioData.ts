@@ -71,17 +71,18 @@ export const PERSONAL_INFO = {
   phoneRaw: "+9779805324548",
   email: "dahalsantosh225@gmail.com",
   whatsappUrl:
-    "https://wa.me/9779805324548?text=Hi%20Santosh%2C%20I%20saw%20your%20portfolio%20and%20would%20like%20to%20connect!",
-  whatsappRaw: "https://wa.me/9779805324548",
+    "https://wa.me/917483428753?text=Hi%20Santosh%2C%20I%20saw%20your%20portfolio%20and%20would%20like%20to%20connect!",
+  whatsappRaw: "https://wa.me/917483428753",
   github: "https://github.com/Santoshdahal145",
-  linkedin: "https://www.linkedin.com/in/santosh-dahal-a89476219/",
+  linkedin: "https://www.linkedin.com/in/santoshdahal145/",
   status: "Available for roles & collaborations",
 };
 
 export const SKILL_CATEGORIES: SkillCategory[] = [
   {
     category: "Frontend & Mobile",
-    description: "Building responsive, accessible web applications and cross-platform mobile clients",
+    description:
+      "Building responsive, accessible web applications and cross-platform mobile clients",
     skills: [
       { name: "React", level: "Advanced" },
       { name: "Next.js", level: "Advanced" },
@@ -94,19 +95,20 @@ export const SKILL_CATEGORIES: SkillCategory[] = [
   },
   {
     category: "Backend & APIs",
-    description: "Designing robust server-side architectures, microservices, and REST APIs",
+    description:
+      "Designing robust server-side architectures, microservices, and REST APIs",
     skills: [
       { name: "Node.js", level: "Advanced" },
       { name: "Express.js", level: "Advanced" },
       { name: "NestJS", level: "Proficient" },
       { name: "RESTful APIs", level: "Advanced" },
       { name: "API Authentication & JWT", level: "Proficient" },
-      { name: "Server-Side Rendering (SSR)", level: "Advanced" },
     ],
   },
   {
     category: "Databases & Tools",
-    description: "Data modeling, schema design, version control, and team deployment workflows",
+    description:
+      "Data modeling, schema design, version control, and team deployment workflows",
     skills: [
       { name: "MongoDB", level: "Advanced" },
       { name: "SQL (PostgreSQL / MySQL)", level: "Proficient" },
@@ -133,7 +135,8 @@ export const PROJECTS: Project[] = [
       "High-performance media handling for Nepal's Himalayan landscapes",
     ],
     link: "https://mysteryhimalaya.com",
-    image: "https://images.unsplash.com/photo-1544735716-392fe2489ffa?q=80&w=1200&auto=format&fit=crop",
+    image:
+      "https://images.unsplash.com/photo-1544735716-392fe2489ffa?q=80&w=1200&auto=format&fit=crop",
     category: "Web",
     featured: true,
   },
@@ -150,7 +153,8 @@ export const PROJECTS: Project[] = [
       "Multi-criteria filtering: pricing, geolocation, amenities, and availability",
       "Modular, reusable component architecture across web and mobile",
     ],
-    image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=1200&auto=format&fit=crop",
+    image:
+      "https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=1200&auto=format&fit=crop",
     category: "Full Stack",
     featured: true,
   },
@@ -167,7 +171,8 @@ export const PROJECTS: Project[] = [
       "Building regulation inspection checklists and milestone audits",
       "Secure REST API backend with structured error logging and audit trails",
     ],
-    image: "https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=1200&auto=format&fit=crop",
+    image:
+      "https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=1200&auto=format&fit=crop",
     category: "Web",
     featured: true,
   },
@@ -184,7 +189,8 @@ export const PROJECTS: Project[] = [
       "Club connectivity portal with member directory and private messaging",
       "Administrative workflows for sanctioning club meets and field activities",
     ],
-    image: "https://images.unsplash.com/photo-1534447677768-be436bb09401?q=80&w=1200&auto=format&fit=crop",
+    image:
+      "https://images.unsplash.com/photo-1534447677768-be436bb09401?q=80&w=1200&auto=format&fit=crop",
     category: "Mobile",
     featured: true,
   },
@@ -201,7 +207,8 @@ export const PROJECTS: Project[] = [
       "Server-side rendering (SSR) enabling high Core Web Vitals scores and SEO ranking",
       "Fast cached responses with responsive reader layout and dark mode",
     ],
-    image: "https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1200&auto=format&fit=crop",
+    image:
+      "https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1200&auto=format&fit=crop",
     category: "Web",
     featured: true,
   },
@@ -254,30 +261,38 @@ export const INTERESTS: InterestItem[] = [
     icon: "Crown",
     title: "Playing Chess",
     category: "Mind & Strategy",
-    description: "Fascinated by rapid positional tactics, positional calculation, and endgame strategy.",
+    description:
+      "Fascinated by rapid positional tactics, positional calculation, and endgame strategy.",
   },
   {
     icon: "Compass",
     title: "Traveling & Exploring",
     category: "Adventure & Outdoors",
-    description: "Passionate about discovering remote Himalayan mountain trails, diverse cultures, and nature.",
+    description:
+      "Passionate about discovering remote Himalayan mountain trails, diverse cultures, and nature.",
   },
   {
     icon: "Cpu",
     title: "Tech Discussions",
     category: "Innovation & Future",
-    description: "Actively exploring emerging AI tools, full-stack architectures, and modern open-source tooling.",
+    description:
+      "Actively exploring emerging AI tools, full-stack architectures, and modern open-source tooling.",
   },
   {
     icon: "UtensilsCrossed",
     title: "Cooking & Recipes",
     category: "Culinary & Creativity",
-    description: "Enjoying the art of blending authentic Himalayan spices and crafting artisanal dishes.",
+    description:
+      "Enjoying the art of blending authentic Himalayan spices and crafting artisanal dishes.",
   },
 ];
 
 export const LANGUAGES: LanguageItem[] = [
-  { language: "English", level: "Professional Working / Fluent", percentage: 95 },
+  {
+    language: "English",
+    level: "Professional Working / Fluent",
+    percentage: 95,
+  },
   { language: "Nepali", level: "Native / Mother Tongue", percentage: 100 },
   { language: "Hindi", level: "Full Professional Fluency", percentage: 90 },
 ];

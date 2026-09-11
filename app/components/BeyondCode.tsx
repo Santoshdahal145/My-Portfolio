@@ -48,7 +48,7 @@ export default function BeyondCode() {
   };
 
   return (
-    <section id="interests" className="py-24 relative dev-grid-bg">
+    <section id="interests" className="py-24 relative dev-grid-bg overflow-hidden w-full max-w-full scroll-mt-24">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">

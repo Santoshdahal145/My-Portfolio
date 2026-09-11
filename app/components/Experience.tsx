@@ -19,9 +19,11 @@ import {
 
 export default function Experience() {
   return (
-    <section id="experience" className="py-24 relative overflow-hidden">
-      {/* Glow */}
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 w-[700px] h-[300px] bg-emerald-500/5 blur-[140px] rounded-full pointer-events-none" />
+    <section id="experience" className="py-24 relative overflow-hidden w-full max-w-full scroll-mt-24">
+      {/* Glow contained */}
+      <div className="absolute inset-0 overflow-hidden pointer-events-none">
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 w-[700px] h-[300px] bg-emerald-500/5 blur-[140px] rounded-full" />
+      </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         {/* Section Header */}

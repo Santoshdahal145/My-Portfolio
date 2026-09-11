@@ -29,9 +29,11 @@ export default function TechStack() {
       : SKILL_CATEGORIES.filter((c) => c.category === activeCategory);
 
   return (
-    <section id="skills" className="py-24 relative overflow-hidden">
-      {/* Background glow */}
-      <div className="absolute top-1/2 -left-40 w-96 h-96 bg-emerald-600/5 blur-[120px] rounded-full pointer-events-none" />
+    <section id="skills" className="py-24 relative overflow-hidden w-full max-w-full scroll-mt-24">
+      {/* Background glow contained */}
+      <div className="absolute inset-0 overflow-hidden pointer-events-none">
+        <div className="absolute top-1/2 -left-40 w-96 h-96 bg-emerald-600/5 blur-[120px] rounded-full" />
+      </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         {/* Section Header */}
@@ -137,7 +139,7 @@ export default function TechStack() {
               </div>
             </div>
           </div>
-          <div className="flex items-center gap-2 shrink-0">
+          <div className="flex items-center gap-2 flex-wrap sm:shrink-0">
             <span className="text-xs font-mono text-emerald-400 px-3 py-1.5 rounded-lg bg-emerald-500/10 border border-emerald-500/20">
               TypeScript First
             </span>

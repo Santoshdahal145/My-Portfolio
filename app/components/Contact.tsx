@@ -56,9 +56,11 @@ export default function Contact() {
   };
 
   return (
-    <section id="contact" className="py-24 relative overflow-hidden">
-      {/* Background radial glow */}
-      <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[800px] h-[400px] bg-gradient-to-t from-emerald-600/10 via-cyan-600/5 to-transparent blur-[140px] pointer-events-none" />
+    <section id="contact" className="py-24 relative overflow-hidden w-full max-w-full scroll-mt-24">
+      {/* Background radial glow contained */}
+      <div className="absolute inset-0 overflow-hidden pointer-events-none">
+        <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[800px] h-[400px] bg-gradient-to-t from-emerald-600/10 via-cyan-600/5 to-transparent blur-[140px]" />
+      </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         {/* Section Header */}

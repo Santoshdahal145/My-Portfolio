@@ -90,8 +90,8 @@ export default function Footer() {
         {/* Bottom row */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-zinc-400 text-center sm:text-left">
           <div>
-            © {new Date().getFullYear()} Santosh Dahal. All rights reserved. Registered Professional
-            Engineer (NEC #83661).
+            © {new Date().getFullYear()} Santosh Dahal. All rights reserved.
+            Registered Professional Engineer (NEC #83661).
           </div>
 
           <div className="flex items-center gap-1">
