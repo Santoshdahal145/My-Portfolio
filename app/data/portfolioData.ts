@@ -66,7 +66,7 @@ export const PERSONAL_INFO = {
   role: "Full Stack Developer",
   experienceYears: "2+",
   location: "Lokanthali, Kathmandu, Nepal",
-  bio: "Full Stack Developer with around 2 years of experience building scalable web and cross-platform mobile applications. Specialized in JavaScript, TypeScript, Next.js, React, Node.js, and React Native/Expo.",
+  bio: "Full Stack Developer with more than 2 years of experience building scalable web and cross-platform mobile applications. Specialized in JavaScript, TypeScript, Next.js, React, Node.js, and React Native/Expo.",
   phone: "+977 9805324548",
   phoneRaw: "+9779805324548",
   email: "dahalsantosh225@gmail.com",
