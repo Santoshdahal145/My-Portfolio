@@ -28,9 +28,11 @@ export default function Projects() {
       : PROJECTS.filter((p) => p.category === activeFilter);
 
   return (
-    <section id="projects" className="py-24 relative dev-grid-bg">
-      {/* Background illumination */}
-      <div className="absolute top-1/3 -right-40 w-96 h-96 bg-cyan-600/5 blur-[120px] rounded-full pointer-events-none" />
+    <section id="projects" className="py-24 relative dev-grid-bg overflow-hidden w-full max-w-full scroll-mt-24">
+      {/* Background illumination contained */}
+      <div className="absolute inset-0 overflow-hidden pointer-events-none">
+        <div className="absolute top-1/3 -right-40 w-96 h-96 bg-cyan-600/5 blur-[120px] rounded-full" />
+      </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         {/* Section Title */}
